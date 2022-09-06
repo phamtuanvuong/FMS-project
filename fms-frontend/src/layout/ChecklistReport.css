@@ -1,0 +1,65 @@
+.header-checklist-report {
+    border-radius: 10px;
+}
+
+.left-headder {
+
+}
+
+.breadcumb-checklist-report {
+
+}
+
+.daily-checklist-container .row>div {
+    margin-bottom: 5px;
+}
+
+.daily-checklist-title {
+
+}
+
+.daily-checklist-campus {
+
+}
+
+.daily-checklist-searchbtn {
+    background-color: #FFB21E;
+    display: inline;
+    border-radius: 5px;
+    padding: 6px 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.weekly-checklist-container .row>div {
+    margin-bottom: 5px;
+}
+
+.weekly-checklist-title {
+
+}
+
+.weekly-checklist-campus {
+
+}
+
+.weekly-checklist-searchbtn {
+    background-color: #FFB21E;
+    display: inline;
+    border-radius: 5px;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width: 1199px) {
+    .col-search {
+        justify-content: flex-start!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-search {
+        justify-content: flex-end!important;
+    }
+}

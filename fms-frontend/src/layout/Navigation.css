@@ -1,0 +1,398 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FFB31E;
+    height: 70px;
+    position: fixed;
+    padding: 0px 20px;
+    z-index: 999;
+}
+
+.right-header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-fms {
+    width: 126px;
+}
+
+.title-header {
+    line-height: 79px;
+    padding: 0px 15px;
+    font-size: 24px;
+    color: #fff;
+}   
+
+.left-header {
+    display: flex;
+    padding: 18px 0px;
+}
+
+.left-header > div {
+    margin: 0px 5px;
+    border-right: 1px solid #fff;
+}
+
+.left-header > div:last-child {
+    margin: 0px 5px;
+    border-right: 0px;
+}
+
+.welcome-title {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 15px 0px 0px;
+}
+
+.welcome-word {
+
+}
+
+.welcome-name {
+
+}
+
+.fptuni-container {
+    padding-right: 15px;
+}
+
+.fptuni-logo {
+    display: flex;
+    background-color: #E99C08;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fptuni-image {
+    background-image: url('../../public/assets/LogoFptUni.png');
+    width: 40px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.fptuni-title {
+    color: #fff;
+    padding: 0px 5px;
+}
+
+
+.menu-profile {
+    padding-right: 15px;
+}
+
+.menu-reponsive {
+
+}
+
+.menu-reponsive-container {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    display: none!important;
+    width: 200px;
+    justify-content: flex-end;
+    display: flex;
+}
+.subNab-responsive {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px!important;
+    right: -8px;
+    top: 40px;
+    list-style: none;
+    min-width: 150px;
+    min-height: 65px;
+    border-radius: 5px;
+}
+
+.subNab-responsive a {
+    color: #000;
+    text-decoration: none;
+}
+
+.subNab-responsive li {
+    line-height: 38px;
+    border-bottom: 1px solid #EDE8E8;
+    padding: 3px 15px;
+    font-size: 14px;
+}
+
+.subNab-responsive li span{
+    color: black;
+}
+
+.subNab-responsive li:hover {
+    background-color: #EDE8E8;
+}
+
+.menu-reponsive span:hover {
+    color: #fff!important;
+}
+
+.menu-reponsive-icon span svg {
+    width: 30px;
+    height: 30px;
+}
+
+.singout-button {
+
+}
+
+.menu-profile span svg, .singout-button span svg {
+    width: 22px;
+    height: 22px;
+}
+
+.navigation-bar {
+    margin-top: 70px;
+    display: inline-block;
+    width: 101px;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.list-navigation {
+    list-style: none;
+}
+
+.home-navigator {
+
+}
+
+.troubles-navigator .icon-navigator {
+    background-image: url('../../public/assets/IncidentsIcon.png');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 38px;
+}
+
+
+.checklists-navigator {
+
+}
+
+.maintaince-navigator {
+
+}
+
+.techreports-navigator {
+
+}
+
+.map-navigator {
+
+}
+
+.configuration-navigator {
+
+}
+
+.guideline-navigator {
+
+}
+
+/* .icon-navigator {
+    text-align: center;
+} */
+
+.list-navigation > li {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    border: 0.5px solid #EDE8E8;
+    cursor: pointer;
+    box-shadow: inset 0 0 0.01px #FFB21E;
+    transition: ease-in-out 0.7s;
+}
+
+.list-navigation > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-navigation > li:hover {
+    /* background-color: #FFB21E; */
+    box-shadow: inset 101px 0 0 #FFB21E;
+}
+
+.list-navigation li:hover .subNab {
+    display: block;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+.background-item-choose {
+    background-color: #FFB21E;
+}
+
+.background-item-choose a .title-navigator {
+    color: #fff!important;
+}
+
+.subNab { 
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 166px!important;
+    list-style: none;
+    min-height: 65px;
+    display: none;
+    border-radius: 5px;
+    left: 100px;
+}
+
+.subNab-troubles {
+    top: 64px;
+}
+
+.subNab-checklists {
+    top: 129px;
+}
+
+.subNab-configuration {
+    top: 389px;
+}
+
+.subNab-warehouse {
+    top: 324px;
+}
+
+.subNab-map {
+    top: 259px;
+}
+
+.subNab li {
+    line-height: 38px;
+    border-bottom: 1px solid #EDE8E8;
+}
+
+.subNab li {
+    line-height: 38px;
+    border-bottom: 1px solid #EDE8E8;
+}
+
+.subNab li:hover {
+    background-color: #EDE8E8;
+}
+
+.subNab a {
+    color: #000;
+    text-decoration: none;
+    padding: 11px 15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 101px);
+    margin-left: 101px;
+    padding: 5px 6px;
+    background-color: #FFF4DE;
+    z-index: 90;
+}
+
+.guideline-direction {
+    display: flex;
+}
+
+.guideline-icon {
+
+}
+
+.guideline-link {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.guideline-link a {
+    text-decoration: none;
+}
+
+.infor-project {
+    margin-top: 3px;
+}
+
+.hide-menu-icon {
+    display: none;
+}
+
+.show-navigation {
+    display: block!important;
+}
+
+.select-lan .ant-select-selector {
+    background-color: #FFB21E!important;
+    border: 0px!important;
+}
+
+@media (max-width: 1100px) {
+    .menu-reponsive-container {
+        display: flex!important;
+    }
+
+    .menu-reponsive-icon:hover .subNab-responsive {
+        display: block;
+    }
+
+    .left-header {
+        display: none;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .hide-menu-icon {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 615px) {
+    .title-header {
+        display: none;
+    }
+}
+
+@media (max-height: 600px) {
+    .header {
+        height: 60px!important;
+    }
+
+    .logo-fms {
+        width: 108px!important;
+    }
+
+    .title-header {
+        line-height: 67px;
+    }
+
+    .menu-reponsive-icon span {
+        top: 17px!important;
+    }
+
+    .menu-reponsive-container {
+        top: 17px!important;
+    }
+
+    .container {
+        top: 50px!important;
+    }
+
+    .navigation-bar {
+        margin-top: 59px!important;
+    }
+}

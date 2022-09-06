@@ -1,0 +1,22 @@
+.ant-modal-body {
+    padding: 0px;
+}
+
+.modal-footer-custom {
+    border-top: 1px solid #EDE8E8;
+    padding: 10px;
+}
+
+.modal-footer-custom>div {
+    margin-bottom: 0px;
+}
+
+.ant-modal-body .ant-form > .row:first-child {
+    padding: 24px;
+}
+
+@media (max-width: 575px) {
+    .modal-footer-custom .col-6:last-child {
+        margin-left: 0px!important;
+    }
+}

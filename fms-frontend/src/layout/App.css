@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .page-div{
+    float: right;
+    margin: 16px 0;
+
+  }

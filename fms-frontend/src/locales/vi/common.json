@@ -1,0 +1,40 @@
+{
+    "search": "Tìm kiếm",
+    "export": "Xuất excel",
+    "action": "Hành động",
+    "of": "của",
+    "items": "mục",
+    "submit": "Lưu",
+    "saveDraft": "Lưu nháp",
+    "update": "Cập nhật",
+    "create": "Tạo mới",
+    "cancel": "Huỷ",
+    "all": "Tất cả",
+    "notify": "Thông báo",
+    "notiTitleDelete": "Bạn có chắc chắn muốn xoá?",
+    "error": {
+        "empty": "Trường này không thể để trống",
+        "titleErrorPage": "Có lỗi xảy ra",
+        "descriptErrorPage": "Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau!",
+        "notFoundTitle": "Không tìm thấy trang",
+        "notFoundescription": "Xin lỗi, trang web bạn đăng nhập không thể tìm thấy.",
+        "unauthozied": "Bạn không có quyền truy cập vào trang web này."
+    },
+    "button": {
+        "submit": "Lưu",
+        "saveDraft": "Lưu nháp",
+        "update": "Cập nhật",
+        "create": "Tạo mới",
+        "cancel": "Huỷ",
+        "delete": "Xoá",
+        "search": "Tìm kiếm",
+        "export": "Xuất excel",
+        "import": "Nhập excel",
+        "preview": "Xem trước",
+        "save": "Lưu"
+    },
+    "noty": {
+        "title": "Thông báo",
+        "closeModal": "Bạn có chắc chắn muốn thoát?"
+    }
+}

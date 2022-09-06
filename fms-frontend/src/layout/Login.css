@@ -1,0 +1,190 @@
+.container-login-outer {
+    height: 100vh;
+}
+
+.container-left-side-login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-exclude-footer {
+    height: 98vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.left-side-login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.logo-fpt {
+    width: 100%;
+}
+
+.container-login {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+
+.container-infor {
+    width: 60%;
+    padding: 30px;
+    border: 1px solid #EDE8E8;
+}
+
+.border-box-login-board {}
+
+.header-login {
+    font-size: 28px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.common-style-info {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-fix-width {
+    width: 100%;
+}
+
+#login-button {
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 60%;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    /* line-height: 35px; */
+    /* padding: 10px; */
+    background-color: #FFB21E;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container-button {
+    display: inline-block;
+}
+
+.link-dashboard {
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+    width: 60%;
+}
+
+.google-logo {
+    background-image: url('../../public/assets/Google_Logo.png');
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.right-side-login {
+    /* width: 50%; */
+    height: 100vh;
+    background-image: url('../../public/assets/Background_Image_Login.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer-login {}
+
+/* .text-footer {} */
+
+.row>* {
+    padding-right: 0px !important;
+}
+
+@media (max-width: 991px) {
+    .right-side-login {
+        display: none;
+    }
+}
+
+@media (max-width: 666px) {
+    #login-button {
+        width: 80%;
+    }
+
+    .link-dashboard {
+        width: 80%;
+    }
+
+    .container-infor {
+        width: 95%;
+    }
+
+    .header-login {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 400px) {
+    #login-button {
+        width: 100%;
+    }
+
+    .link-dashboard {
+        width: 100%;
+    }
+
+    .container-infor {
+        width: 95%;
+    }
+
+    .header-login {
+        font-size: 18px;
+    }
+}
+
+@media (max-height: 550px) {
+    .container-left-side-login {
+        height: 100%;
+    }
+}
+
+@media (max-height: 700px) {
+    .left-side-login {
+        height: 700px;
+    }
+
+    .container-login-outer {
+        height: 700px !important;
+    }
+
+    .container-exclude-footer {
+        height: 100%
+    }
+
+    .right-side-login {
+        height: 700px;
+    }
+
+    .left-side-login {
+        height: 700px;
+    }
+}
+
+.without-button {
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border: 1px solid #EDE8E8;
+}

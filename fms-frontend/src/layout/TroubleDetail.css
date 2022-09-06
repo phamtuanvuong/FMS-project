@@ -1,0 +1,168 @@
+/* .containerInputForm {
+    top: 85px;
+    position: relative;
+    height: 200%;
+    left: 107px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    z-index: 1;
+    min-width: 93%;
+    margin-left: 0px;
+    margin-right: 0px;
+} */
+
+.header-detail-incident {
+    border-radius: 10px;
+}
+
+.left-headder {}
+
+.title-detail-incident {
+    margin-bottom: 9px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.breadcum-detail-incident {}
+
+.right-headder {}
+
+.button-update {
+    margin-right: 10px;
+    padding: 8px 40px;
+    background-color: #FFB21E;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    width: 131px;
+}
+
+.button-cancel {
+    padding: 8px 40px;
+    border: 1px solid #EDE8E8;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    width: 131px;
+}
+
+.detail-campus-form {
+    height: 100%;
+    padding: 26px 15px;
+}
+
+.form-display {
+    display: flex;
+}
+
+.infor-campus-title {}
+
+.infor-campus-name {}
+
+.campus-location-title {}
+
+.progress-incident-container {
+    min-height: 112px;
+}
+
+.ant-form-vertical .ant-form-item {
+    flex-direction: column;
+}
+
+.name-requester {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.progress-incident {}
+
+.infor-detail-report {
+    /* margin-right: 12px; */
+}
+
+.incident-report-header {}
+
+.incident-report-form {}
+
+.incident-report-form .row>div {
+    margin-bottom: 10px;
+}
+
+.asset-type {}
+
+.asset-type-title {}
+
+.asset-type-input {}
+
+.asset-subtype {}
+
+.asset-subtype-title {}
+
+.asset-subtype-input {}
+
+.asset-status {}
+
+.asset-status-title {}
+
+.asset-status-option1 {}
+
+.more-description {}
+
+.more-description-title {}
+
+.asset-status-option1 {}
+
+.issue-image {}
+
+.issue-image-title {}
+
+.issue-image-upload {}
+
+.infor-incident-resolve {}
+
+.incident-resolve-header {}
+
+.incident-resolve-form {}
+
+.incident-resolve-form .row>div {
+    margin-bottom: 10px;
+}
+
+.change-status {}
+
+.change-status-title {}
+
+.change-status-input {}
+
+.assign-technician {}
+
+.assign-technician-title {}
+
+.assign-technician-input {}
+
+.resolved-title {}
+
+.asset-status-option1 {}
+
+.more-description {}
+
+.more-description-title {}
+
+.asset-status-option1 {}
+
+.issue-image {}
+
+.issue-image-title {}
+
+.issue-image-upload {}
+
+
+@media (max-width: 991px) {
+    .form-display {
+        display: block;
+    }
+
+    .infor-detail-report {
+        margin-bottom: 12px;
+    }
+}

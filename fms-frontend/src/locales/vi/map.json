@@ -1,0 +1,26 @@
+{
+    "campus": "Cơ sở",
+    "location": "Vị trí",
+    "floor": "Tầng",
+    "map": "Bản đồ",
+    "viewMap": {
+        "title": "Xem Bản đồ"
+    },
+    "customizeMap": {
+        "title": "Tùy chỉnh bản đồ",
+        "areaConfig": "Cấu hình khu vực",
+        "name": "Tên",
+        "chooseRoomPlaceholder": "Chọn phòng",
+        "size": "Kích thước",
+        "square": "ô vuông",
+        "position": "Vị trí",
+        "areaType": "Loại khu vực",
+        "typePlaceholder": "Chọn Loại",
+        "haveDoor": "Có cửa",
+        "door": "Vị trí cửa",
+        "directPlaceholder": "Chọn hướng cửa",
+        "cloneArea": "Sao chép khu vực này",
+        "saveAll": "Lưu tất cả",
+        "floorConfig": "Cấu hình tầng"
+    }  
+}

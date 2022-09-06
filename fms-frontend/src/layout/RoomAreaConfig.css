@@ -1,0 +1,18 @@
+.qrCode-component {
+    width: 250px;
+    display: flex;
+    padding: 19px;
+}
+
+.qrCode-info {
+    margin-left: 5px;
+}
+
+.title-qrCode {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.info-room-qrCode {
+    font-size: 9px;
+}

@@ -1,0 +1,95 @@
+.header-list-incidents {
+    padding: 11px 21px;
+    border: 1px solid #EDE8E8;
+    border-radius: 10px;
+}
+
+.title-incident {
+    margin-bottom: 9px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.breadCum-incidents {}
+
+.search-incidents {
+    display: flex;
+    border: 1px solid #EDE8E8;
+    padding: 11px 21px;
+    justify-content: space-around;
+    margin-top: 28px;
+    border-bottom: 0px;
+}
+
+.search-status {}
+
+.search-status-title {}
+
+.search-status-input {}
+
+.search-room {}
+
+.search-room-title {}
+
+.search-room-input {}
+
+.search-from {}
+
+.search-from-title {}
+
+.search-from-input {}
+
+.search-to {}
+
+.search-to-title {}
+
+.search-to-input {}
+
+.search-assetType {}
+
+.search-assetType-title {}
+
+.search-assetType-input {}
+
+.search-button {
+    margin: 30px 0px;
+    background-color: #FFB21E;
+    border-radius: 5px;
+    padding: 8px 28px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.export-button {
+    margin: 30px 0px;
+    background-color: #FFB21E;
+    border-radius: 5px;
+    padding: 8px 28px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.display-incidents {}
+
+.col-search {
+    justify-content: flex-end!important;
+}
+
+.daily-checklist-searchbtn {
+    margin-left: 10px;
+}
+
+.ant-table-row .columnStatus {
+    /* background-color: red!important; */
+}
+
+@media (max-width: 1529px) and (min-width: 1200px) {
+    .col-xl-2-custom {
+        width: 19.9996667%;
+    }
+    .col-search {
+        width: 100%;
+    }
+}
+

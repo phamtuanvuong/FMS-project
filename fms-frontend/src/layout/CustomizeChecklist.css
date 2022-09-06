@@ -1,0 +1,9 @@
+.create-checklist {
+    border: 1px dashed #838080;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.requirementContain {
+    margin-bottom: 10px;
+}

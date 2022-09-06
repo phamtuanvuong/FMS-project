@@ -1,0 +1,49 @@
+.ant-collapse-extra {
+    margin-left: 0px !important;
+    width: 100%;
+}
+
+.ant-collapse-header {
+    background-color: #FFF4DE;
+}
+
+.header-floor {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.title-number-floor {
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.status-floor {
+    font-weight: 700;
+}
+
+.display-rooms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.room {
+    padding: 5px 18px;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.display-floors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.floor {
+    padding: 5px 14px;
+    width: 80px;
+    border-right: 1px solid #fff;
+}

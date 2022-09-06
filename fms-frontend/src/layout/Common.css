@@ -1,0 +1,260 @@
+.row {
+    width: 100%;
+}
+
+.ant-dropdown-trigger {
+    width: 100%;
+    text-align: left;
+    border-radius: 5px !important;
+}
+
+.ant-dropdown-trigger:hover,
+.ant-dropdown-trigger:focus {
+    border-color: #FFB21E !important;
+    color: #FFB21E !important;
+}
+
+.ant-input:hover,
+.ant-picker:hover,
+.ant-picker:focus,
+.ant-input:focus,
+.ant-select-selector:hover,
+.ant-select-selector:focus,
+.ant-select:focus {
+    border-color: #FFB21E !important;
+}
+
+.ant-dropdown-trigger>div {
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.header-pannel {
+    border-bottom: 1px solid #EDE8E8;
+    padding: 10px 15px;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 5px !important;
+    font-size: 16px;
+}
+
+.padding-pannel {
+    padding: 10px 15px;
+}
+
+.border-form {
+    border: 1px solid #EDE8E8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ant-picker {
+    width: 100%;
+}
+
+.ant-table-container tr th {
+    background-color: #FFB21E !important;
+    border-right: 1px solid #D9D9D9;
+}
+
+.ant-table-container tr td {
+    border-right: 1px solid #D9D9D9;
+}
+
+.right-headder {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+    padding-right: 12px;
+}
+
+.decription-input {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #838080;
+    font-style: italic;
+}
+
+.row>div {
+    margin-bottom: 10px;
+}
+
+.title-pannel {
+    margin-bottom: 9px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button-submit {
+    /* margin-right: 10px; */
+    background-color: #FFB21E !important;
+    border: 1px solid #FFB21E !important;
+    color: #fff !important;
+}
+
+.button-search {
+    background-color: #FFB21E !important;
+    border: 1px solid #FFB21E !important;
+    color: #fff !important;
+}
+
+.button-other {}
+
+.button {
+    padding: 7px 0px;
+    text-align: center;
+    cursor: pointer;
+    width: 115px;
+    border-radius: 7px;
+    height: 38px;
+    border: 1px solid #EDE8E8;
+    color: #000;
+}
+
+.title-input {
+    margin-bottom: 5px !important;
+}
+
+.ant-table-thead>tr>th {
+    color: #fff !important;
+}
+
+.ant-modal-footer .ant-btn-primary,
+.ant-modal-header {
+    background-color: #FFB21E;
+}
+
+.ant-modal-title {
+    color: #fff !important;
+}
+
+.ant-table-cell {
+    text-align: center !important;
+}
+
+.ant-upload.ant-upload-drag {
+    height: auto !important;
+}
+
+.modal-progress .ant-modal-content {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+.modal-progress .ant-spin-dot-item {
+    background-color: #FFB21E!important;
+}
+
+.modal-progress .ant-spin {
+    color: #FFB21E !important;
+}
+
+.ant-spin-lg .ant-spin-dot {
+}
+
+ul {
+    list-style: none;
+}
+
+.ant-modal-body {
+    padding-bottom: 0 !important;
+}
+
+.message-modal .ant-modal-body {
+    padding: 24px !important;
+}
+
+.col-search-button {
+    margin-top: 18px;
+    height: 43px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ant-upload.ant-upload-drag .ant-upload {
+    padding: 5px 0px!important;
+}
+
+.ant-tabs-tab {
+    padding: 12px 15px !important;
+}
+
+.ant-tabs-tab:hover {
+    color: #FFB21E!important;
+}
+
+.ant-tabs-tab-active {
+    background-color: #FFB21E;
+    color: #ffffff!important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ffffff!important;
+}
+
+.ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px!important;
+}
+
+.ant-tabs {
+    border: 1px solid #E0E0E0;
+}
+
+.ant-tabs-content-holder {
+    padding: 15px;
+}
+
+@media (max-width: 384px) {
+    /* .button-submit {
+        width: 100%;
+    }
+
+    .button-other {
+        width: 100%;
+    } */
+
+    .button-search {
+        width: 37%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        left: 0;
+    }
+
+    .footer {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .message-modal {
+        width: 30%!important;
+    }
+}
+
+@media (max-width: 850px) {
+    .message-modal {
+        width: 40%!important;
+    }
+}
+
+@media (max-width: 650px) {
+    .message-modal {
+        width: 60%!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .message-modal {
+        width: 90%!important;
+    }
+}

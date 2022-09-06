@@ -1,0 +1,26 @@
+{
+    "campus": "Campus",
+    "location": "Location",
+    "floor": "Floor",
+    "map": "Map",
+    "viewMap": {
+        "title": "View Map"
+    },
+    "customizeMap": {
+        "title": "Customize Map",
+        "areaConfig": "Area Configuration",
+        "name": "Name",
+        "chooseRoomPlaceholder": "Choose room",
+        "size": "Size",
+        "square": "square",
+        "position": "Position",
+        "areaType": "Area Type",
+        "typePlaceholder": "Select Type",
+        "haveDoor": "Have Door",
+        "door": "Door",
+        "directPlaceholder": "Select direction door",
+        "cloneArea": "Clone this area",
+        "saveAll": "Save all",
+        "floorConfig": "Floor Configuration"
+    }
+}

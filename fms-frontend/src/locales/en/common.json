@@ -1,0 +1,40 @@
+{
+    "search": "Search",
+    "export": "Export",
+    "action": "Action",
+    "of": "of",
+    "items": "items",
+    "submit": "Submit",
+    "saveDraft": "Save Draft",
+    "update": "Update",
+    "create": "Create",
+    "cancel": "Cancel",
+    "all": "All",
+    "notify": "Notification",
+    "notiTitleDelete": "Are you sure you want to delete?",
+    "error": {
+        "empty": "This field cannot be empty",
+        "titleErrorPage": "Something went wrong",
+        "descriptErrorPage": "Sorry, something went wrong. Please try again later!",
+        "notFoundTitle": "Not found",
+        "notFoundescription": "Sorry, the page you visited does not exist.",
+        "unauthozied": "Sorry, you are not authorized to access this page."
+    },
+    "button": {
+        "submit": "Submit",
+        "saveDraft": "Save Draft",
+        "update": "Update",
+        "create": "Create",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "search": "Search",
+        "export": "Export",
+        "import": "Import",
+        "preview": "Preview",
+        "save": "Save"
+    },
+    "noty": {
+        "title": "Notification",
+        "closeModal": "Are you sure to close?"
+    }
+}
