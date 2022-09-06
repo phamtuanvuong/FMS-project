@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row } from "reactstrap";
 import { Button, Form, Modal, Input, Select } from 'antd';
-import { validateRequired } from "../../../../../validateFunc/validateRequired";
 import { LocationService } from "../../../../../services/main_screen/configuration/LocationService";
 import { CampusService } from "../../../../../services/main_screen/configuration/CampusService";
 import { Notification } from "../../../../../components/Notification";
