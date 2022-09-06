@@ -14,8 +14,8 @@ export const ACTION = {
 
 export const env ={
     ggClientID : "838705461058-46dntk106g2uur1j5b88v188ibu1omss.apps.googleusercontent.com",
-    path: 'https://localhost:5001' //localhost
-    // path: 'http://demofmsapi.site' //deploy
+    // path: 'https://localhost:5001' //localhost
+    path: 'http://demofmsapi.site' //deploy
 }
 
 export const URLWEB = {
